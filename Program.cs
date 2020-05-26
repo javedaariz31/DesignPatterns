@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DesignPatterns.AbstractFactoryPattern;
 using DesignPatterns.AbstractFactoryPattern.RealWorldPattern;
+using DesignPatterns.BuilderPattern.StructuralApproach;
 using DesignPatterns.Singleton_Pattern;
 using DesignPatterns.Singleton_Pattern.RealWorldApproach;
 
@@ -18,7 +19,7 @@ namespace DesignPatterns
             //SingletonPattern singletonPattern = new SingletonPattern();
 
             //RealWorld Singleton approach
-            RealWorldSingleton realWorldApproach = new RealWorldSingleton();
+            //RealWorldSingleton realWorldApproach = new RealWorldSingleton();
 
 
             //Factory pattern Structural Approach.
@@ -27,6 +28,9 @@ namespace DesignPatterns
 
             //Factory Pattern with RealTime Eaxample
             //RealWorldApproach realWorld = new RealWorldApproach();
+
+            //Builder pattern
+            BuilderStructuralApproach builderStructuralApproach = new BuilderStructuralApproach();
         }
     }
 }
