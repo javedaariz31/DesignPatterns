@@ -63,7 +63,6 @@
     <Compile Include="AbstractFactoryPattern\StructuralPattern\ProductA.cs" />
     <Compile Include="AbstractFactoryPattern\StructuralPattern\ProductB.cs" />
     <Compile Include="AbstractFactoryPattern\StructuralPattern\StructuralApproach.cs" />
-    <Compile Include="LoadBalancer\GetLoadBalancer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton Pattern\RealWorldApproach\LoadBalancer.cs" />
