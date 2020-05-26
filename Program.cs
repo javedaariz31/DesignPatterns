@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DesignPatterns.AbstractFactoryPattern;
+using DesignPatterns.AbstractFactoryPattern.RealWorldPattern;
 using DesignPatterns.Singleton_Pattern;
+using DesignPatterns.Singleton_Pattern.RealWorldApproach;
 
 namespace DesignPatterns
 {
@@ -15,9 +17,16 @@ namespace DesignPatterns
             //Different Singleton patterns being called. 
             //SingletonPattern singletonPattern = new SingletonPattern();
 
-            //Factory pattern Structural Approach.
-            FactoryPatternStructuralApproach structuralApproach = new FactoryPatternStructuralApproach();
+            //RealWorld Singleton approach
+            RealWorldSingleton realWorldApproach = new RealWorldSingleton();
 
+
+            //Factory pattern Structural Approach.
+            //FactoryPatternStructuralApproach structuralApproach = new FactoryPatternStructuralApproach();
+
+
+            //Factory Pattern with RealTime Eaxample
+            //RealWorldApproach realWorld = new RealWorldApproach();
         }
     }
 }

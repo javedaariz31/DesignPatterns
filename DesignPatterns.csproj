@@ -43,6 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactoryPattern\RealWorldPattern\AfricaFactory.cs" />
+    <Compile Include="AbstractFactoryPattern\RealWorldPattern\AmericaFactory.cs" />
+    <Compile Include="AbstractFactoryPattern\RealWorldPattern\AnimalWorld.cs" />
+    <Compile Include="AbstractFactoryPattern\RealWorldPattern\Bison.cs" />
+    <Compile Include="AbstractFactoryPattern\RealWorldPattern\Carnivorus.cs" />
+    <Compile Include="AbstractFactoryPattern\RealWorldPattern\ContinentFactory.cs" />
+    <Compile Include="AbstractFactoryPattern\RealWorldPattern\Herbivorus.cs" />
+    <Compile Include="AbstractFactoryPattern\RealWorldPattern\Lion.cs" />
+    <Compile Include="AbstractFactoryPattern\RealWorldPattern\RealWorldApproach.cs" />
+    <Compile Include="AbstractFactoryPattern\RealWorldPattern\WildBeast.cs" />
+    <Compile Include="AbstractFactoryPattern\RealWorldPattern\Wolf.cs" />
     <Compile Include="AbstractFactoryPattern\StructuralPattern\AbstractFactory.cs" />
     <Compile Include="AbstractFactoryPattern\StructuralPattern\AbstractProductA.cs" />
     <Compile Include="AbstractFactoryPattern\StructuralPattern\AbstractProductB.cs" />
@@ -52,21 +63,22 @@
     <Compile Include="AbstractFactoryPattern\StructuralPattern\ProductA.cs" />
     <Compile Include="AbstractFactoryPattern\StructuralPattern\ProductB.cs" />
     <Compile Include="AbstractFactoryPattern\StructuralPattern\StructuralApproach.cs" />
+    <Compile Include="LoadBalancer\GetLoadBalancer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Singleton Pattern\FullyLazySingleton.cs" />
-    <Compile Include="Singleton Pattern\GenericSingleton.cs" />
-    <Compile Include="Singleton Pattern\LazyLoadSingleton.cs" />
-    <Compile Include="Singleton Pattern\PropertySingleton.cs" />
-    <Compile Include="Singleton Pattern\SingletonPattern.cs" />
-    <Compile Include="Singleton Pattern\ThreadSafeDoubleCheckSingleton.cs" />
-    <Compile Include="Singleton Pattern\ThreadSafeSingleton.cs" />
+    <Compile Include="Singleton Pattern\RealWorldApproach\LoadBalancer.cs" />
+    <Compile Include="Singleton Pattern\RealWorldApproach\RealWorldSingleton.cs" />
+    <Compile Include="Singleton Pattern\StructuralPattern\FullyLazySingleton.cs" />
+    <Compile Include="Singleton Pattern\StructuralPattern\GenericSingleton.cs" />
+    <Compile Include="Singleton Pattern\StructuralPattern\LazyLoadSingleton.cs" />
+    <Compile Include="Singleton Pattern\StructuralPattern\PropertySingleton.cs" />
+    <Compile Include="Singleton Pattern\StructuralPattern\SingletonPattern.cs" />
+    <Compile Include="Singleton Pattern\StructuralPattern\ThreadSafeDoubleCheckSingleton.cs" />
+    <Compile Include="Singleton Pattern\StructuralPattern\ThreadSafeSingleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="AbstractFactoryPattern\RealWorldPattern\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
